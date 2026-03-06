@@ -1,4 +1,4 @@
-- **Do not skip namaz**
+- **Do not skip namaz** | [[Lifestyle System Hub](LIFESTYLE_SYSTEM.md)]
 - **Quit bad habits**
 - **Excercise & Meditate Everyday**
 - **Wake up early**

@@ -1,4 +1,4 @@
-# Personal Growth System (Developer)
+# Personal Growth System (Developer) | [[Full Lifestyle System](LIFESTYLE_SYSTEM.md)]
 
 ## 1. Learning as a Developer
 
@@ -70,7 +70,7 @@
 
 # Daily Habits
 
-- **5 Daily Prayers**
+- **5 Daily Prayers** | [[Lifestyle System Hub](LIFESTYLE_SYSTEM.md)]
 - **Morning Exercise**
 - **Meditation / Mindfulness (Morning)**
 - **Deep Work Blocks (Scheduled)**
