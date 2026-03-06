@@ -1,0 +1,6 @@
+- **Do not skip namaz**
+- **Quit bad habits**
+- **Excercise & Meditate Everyday**
+- **Wake up early**
+- **Spend time with family**
+- **Spend time on learning & finding new job or opportunities**
