@@ -40,3 +40,26 @@ Since Dart is single-threaded, a long-running calculation will "block" the UI, c
 | **Async/Await** | Concurrency without multithreading (waiting for I/O). |
 | **Isolates** | True parallelism (running calculations on separate CPU cores). |
 | **Event Loop** | The mechanism that coordinates execution. |
+
+## Dart Language Features (Senior Level)
+
+### 1. Sound Null Safety
+Dart’s null safety is "Sound," meaning if the type system says a variable isn't null, it can *never* be null at runtime.
+- **`?`**: Nullable type.
+- **`!`**: Assertion operator (use only when 100% sure).
+- **`late`**: Lazily initialized. Helpful for variables initialized in `initState`.
+- **`required`**: Named parameters that must be provided.
+
+### 2. Dart Patterns & Records (Dart 3+)
+- **Records**: Allow returning multiple values from a function without a custom class.
+  - `(double, double) getLocation() => (10.0, 20.0);`
+- **Pattern Matching**: Switch expressions and destructuring.
+  - `switch (response) { case Success(:var data) => ... }`
+
+### 3. Streams & RxDart
+- **StreamController**: Manages a stream's lifecycle.
+- **Broadcast Stream**: Allows multiple listeners (default streams only allow one).
+- **RxDart**: Adds powerful operators like `debounceTime`, `switchMap`, and `combineLatest`. Essential for complex search or form validation logic.
+
+---
+**Next Sitting Recommendation:** [Architecture](file:///home/carbonanik/code/guideline/interview_prep/architecture.md) to see how to structure these Dart features.

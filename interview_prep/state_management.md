@@ -21,12 +21,20 @@ Flutter is a declarative framework. The UI is a function of the state (`UI = f(s
 - Uses **Streams** for event-driven state management.
 - Clearly separates events (inputs) from states (outputs).
 - Great for large, complex apps with rigorous testing requirements.
+- **Cubit:** A simpler version of Bloc that uses methods instead of events.
 
-### GetX
-- Provides state management, dependency injection, and routing in one.
-- High performance and low boilerplate.
-- Can be controversial due to its deviation from standard Flutter patterns.
+## Riverpod vs. BLoC vs. Provider
 
-### Riverpod
-- A rewrite of Provider by the same author.
-- Solves many Provider limitations (no global dependencies, compile-time safety).
+| Feature | Provider | Riverpod | BLoC |
+| --- | --- | --- | --- |
+| **Complexity** | Low | Medium | High |
+| **Boilerplate** | Medium | Low | High |
+| **Testability** | Good | Excellent | Excellent |
+| **Safety** | Runtime (can fail) | Compile-time | Excellent |
+| **Context** | Required | Optional (via Ref) | Required |
+
+### Question: "When to choose BLoC over Riverpod?"
+**Answer:** Choose **BLoC** if you want strict event-driven architecture and the strongest possible separation of UI and logic. Choose **Riverpod** if you want faster development speed, less boilerplate, and a more modern Dart feel.
+
+---
+**Next Sitting Recommendation:** [Riverpod Deep Dive](file:///home/carbonanik/code/guideline/interview_prep/riverpod.md)
