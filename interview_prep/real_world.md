@@ -35,4 +35,4 @@ Senior developers are judged on how they handle common but complex production sc
 - Use `--dart-define` to inject variables at compile time.
 
 ---
-**Next Sitting Recommendation:** [Senior Thinking](file:///home/carbonanik/code/guideline/interview_prep/senior_thinking.md)
+**Next Sitting Recommendation:** [Senior Thinking](https://github.com/carbonanik/guideline/blob/master/interview_prep/senior_thinking.md)

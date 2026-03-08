@@ -34,4 +34,4 @@ Keys are vital for preserving state when widgets move in the tree.
 **Answer:** Use keys when you have a **Stateful** widget collection that changes order or filters. Without keys, Flutter might associate the old state with the new widget at the same position.
 
 ---
-**Next Sitting Recommendation:** [State Management](file:///home/carbonanik/code/guideline/interview_prep/state_management.md) to learn how to trigger these optimizations.
+**Next Sitting Recommendation:** [State Management](https://github.com/carbonanik/guideline/blob/master/interview_prep/state_management.md) to learn how to trigger these optimizations.

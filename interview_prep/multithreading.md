@@ -62,4 +62,4 @@ Dart’s null safety is "Sound," meaning if the type system says a variable isn'
 - **RxDart**: Adds powerful operators like `debounceTime`, `switchMap`, and `combineLatest`. Essential for complex search or form validation logic.
 
 ---
-**Next Sitting Recommendation:** [Architecture](file:///home/carbonanik/code/guideline/interview_prep/architecture.md) to see how to structure these Dart features.
+**Next Sitting Recommendation:** [Architecture](https://github.com/carbonanik/guideline/blob/master/interview_prep/architecture.md) to see how to structure these Dart features.

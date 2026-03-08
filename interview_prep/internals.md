@@ -37,4 +37,4 @@ Flutter doesn't use native OEM widgets (like Android's `Button` or iOS's `UIButt
 3. **Sub-linear Layout:** Flutter's layout algorithm is $O(N)$, meaning it only visits each node once.
 
 ---
-**Next Sitting Recommendation:** [Flutter Fundamentals](file:///home/carbonanik/code/guideline/interview_prep/flutter_fundamentals.md) to see how these layers manifest in widgets.
+**Next Sitting Recommendation:** [Flutter Fundamentals](https://github.com/carbonanik/guideline/blob/master/interview_prep/flutter_fundamentals.md) to see how these layers manifest in widgets.

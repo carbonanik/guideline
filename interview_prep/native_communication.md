@@ -41,4 +41,4 @@ A modern way to structure plugins where different packages handle different plat
 **Answer:** No. Communication across the "bridge" is always asynchronous, even if the native code itself is synchronous.
 
 ---
-**Next Sitting Recommendation:** [Senior Thinking](file:///home/carbonanik/code/guideline/interview_prep/senior_thinking.md)
+**Next Sitting Recommendation:** [Senior Thinking](https://github.com/carbonanik/guideline/blob/master/interview_prep/senior_thinking.md)

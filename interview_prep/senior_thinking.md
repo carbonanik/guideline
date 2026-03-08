@@ -39,4 +39,4 @@ Always answer with a **Scenario → Problem → Solution** structure.
 - *Good:* "In my last project, we had 50+ screens. By using Clean Architecture, we were able to switch our database from SQLite to Hive in just 2 days without touching the UI code."
 
 ---
-**Conclusion:** You are ready! Review [the main index](file:///home/carbonanik/code/guideline/interview_prep/README.md) for a final broad view.
+**Conclusion:** You are ready! Review [the main index](https://github.com/carbonanik/guideline/blob/master/interview_prep/README.md) for a final broad view.
