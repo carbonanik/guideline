@@ -36,5 +36,17 @@ Flutter doesn't use native OEM widgets (like Android's `Button` or iOS's `UIButt
 2. **Efficient Rendering:** It bypasses the platform's widget sets and draws directly to a canvas.
 3. **Sub-linear Layout:** Flutter's layout algorithm is $O(N)$, meaning it only visits each node once.
 
+## 4. Multi-Threading & Thread Architecture
+Even though Dart is single-threaded, the Flutter **Engine** is multi-threaded.
+
+- **UI Thread (Dart):** Runs the Framework (build, layout, paint), handles touch events, timers, and animations.
+- **Raster Thread (C++):** (Formerly GPU thread) Communicates with the GPU. It takes the layer tree and tells the GPU how to draw pixels.
+- **Platform Thread:** Handles platform-specific communication (Android/iOS plugins).
+- **IO Thread:** Performs heavy tasks like image decoding and network calls without blocking the UI.
+
+## 5. Pipeline Parallelism (60 FPS Secret)
+Flutter achieves consistent 60 FPS through **Pipeline Parallelism**:
+While the **Raster Thread** is drawing the *current* frame (Frame N), the **UI Thread** is already busy building the *next* frame (Frame N+1). This overlapping execution ensures the GPU always has work to do.
+
 ---
 **Next Sitting Recommendation:** [Flutter Fundamentals](https://github.com/carbonanik/guideline/blob/master/interview_prep/flutter_fundamentals.md) to see how these layers manifest in widgets.

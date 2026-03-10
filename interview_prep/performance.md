@@ -28,10 +28,16 @@ Keys are vital for preserving state when widgets move in the tree.
 - **ValueKey:** For simple items (e.g., a list item with a unique ID).
 - **ObjectKey:** For items identified by a complex object.
 - **UniqueKey:** Forces a new element/state every time (rarely used).
-- **GlobalKey:** Accesses the state of a widget from anywhere. **Use sparingly** as it is expensive.
+- **GlobalKey:** Accesses the state of a widget from anywhere. Avoid using in large lists as it breaks Flutter's local tree diffing optimizations and forces a global search.
 
 ### Question: "When should I use a Key?"
 **Answer:** Use keys when you have a **Stateful** widget collection that changes order or filters. Without keys, Flutter might associate the old state with the new widget at the same position.
+
+---
+
+### [!WARNING]
+### Ticker Leaks
+Always call `dispose()` on `AnimationController`, `ScrollController`, or `TabController`. Failure to do so results in a **Ticker Leak**, where the ticker keeps running in the background after the widget is gone, causing memory leaks and CPU drain.
 
 ---
 **Next Sitting Recommendation:** [State Management](https://github.com/carbonanik/guideline/blob/master/interview_prep/state_management.md) to learn how to trigger these optimizations.

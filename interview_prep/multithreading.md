@@ -30,8 +30,20 @@ A sequence of asynchronous events. Think of it as a "pipe" where data flows over
 Since Dart is single-threaded, a long-running calculation will "block" the UI, causing jank.
 
 ### Solution: `Isolate.spawn` or `compute`
-- `compute`: A high-level wrapper to run a function in a separate isolate and return the result. Best for one-off heavy tasks.
 - `Isolate.spawn`: More low-level, allows persistent communication between isolates using `SendPort` and `ReceivePort`.
+
+## 4. Future: No Await (Fire-and-Forget)
+Calling a future without `await` starts its execution asynchronously but continues the current function immediately.
+- **Risk:** Unhandled exceptions (if the future fails, the app might crash if no `.catchError` is provided).
+- **Pattern:** Use `unawaited(future)` from `dart:async` to explicitly mark that you don't care about the result.
+
+## 5. Comparison: Future vs. Stream vs. Isolate
+
+| Feature | Future | Stream | Isolate |
+| --- | --- | --- | --- |
+| **Result** | Single result | Multiple events | Independent task |
+| **Thread** | Same (UI) | Same (UI) | New (Worker) |
+| **Use Case** | API Call | Websockets, Taps | Heavy Image Processing |
 
 ## Summary Table
 
