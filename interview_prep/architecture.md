@@ -32,3 +32,6 @@ DI allows objects to receive their dependencies from an external source rather t
 ### Tools in Flutter:
 - **Provider / Riverpod:** Often used for DI by providing dependencies down the widget tree.
 - **GetIt:** A service locator for global dependency management.
+
+---
+**Next Sitting Recommendation:** [Design Patterns](./design_patterns.md) to learn reusable solutions for common architectural problems.

@@ -72,3 +72,6 @@ class MyStatefulWidgetState extends State<MyStatefulWidget>
 - Use `RepaintBoundary` to isolate expensive painting.
 - Minimize work in the `build` method during animations.
 - Use `SizedBox` or `const` widgets inside animations where possible.
+
+---
+**Next Sitting Recommendation:** [Dart Language & Multithreading](./multithreading.md) to handle complex logic behind your animations.

@@ -49,4 +49,4 @@ Flutter achieves consistent 60 FPS through **Pipeline Parallelism**:
 While the **Raster Thread** is drawing the *current* frame (Frame N), the **UI Thread** is already busy building the *next* frame (Frame N+1). This overlapping execution ensures the GPU always has work to do.
 
 ---
-**Next Sitting Recommendation:** [Flutter Fundamentals](https://github.com/carbonanik/guideline/blob/master/interview_prep/flutter_fundamentals.md) to see how these layers manifest in widgets.
+**Next Sitting Recommendation:** [Flutter Fundamentals](./flutter_fundamentals.md) to see how these layers manifest in widgets.

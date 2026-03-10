@@ -37,4 +37,4 @@ Flutter is a declarative framework. The UI is a function of the state (`UI = f(s
 **Answer:** Choose **BLoC** if you want strict event-driven architecture and the strongest possible separation of UI and logic. Choose **Riverpod** if you want faster development speed, less boilerplate, and a more modern Dart feel.
 
 ---
-**Next Sitting Recommendation:** [Riverpod Deep Dive](https://github.com/carbonanik/guideline/blob/master/interview_prep/riverpod.md)
+**Next Sitting Recommendation:** [Riverpod Deep Dive](./riverpod.md)

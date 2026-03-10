@@ -19,3 +19,6 @@ Clients should not be forced to depend on methods they do not use.
 ## D: Dependency Inversion Principle (DIP)
 Depend on abstractions, not concretions. High-level modules should not depend on low-level modules.
 - **Example:** A `ViewModel` should depend on an abstract `Repository` interface, not a concrete `ApiServiceImpl`.
+
+---
+**Next Sitting Recommendation:** [Dependency Injection](./di.md) to see how SOLID principles are implemented in practice.

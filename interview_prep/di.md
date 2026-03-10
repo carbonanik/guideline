@@ -33,4 +33,4 @@ Don't depend on `ApiServiceImpl`. Depend on `ApiService` (the interface).
 **Answer:** In pure **Dependency Injection**, objects are *given* their dependencies (e.g., via constructor). In a **Service Locator** (like GetIt), objects *request* their dependencies. Senior developers usually prefer constructor injection for visibility and easier unit testing.
 
 ---
-**Next Sitting Recommendation:** [Testing](https://github.com/carbonanik/guideline/blob/master/interview_prep/testing.md) to see DI in action.
+**Next Sitting Recommendation:** [Testing](./testing.md) to see DI in action.

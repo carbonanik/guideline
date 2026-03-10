@@ -40,4 +40,4 @@ Keys are vital for preserving state when widgets move in the tree.
 Always call `dispose()` on `AnimationController`, `ScrollController`, or `TabController`. Failure to do so results in a **Ticker Leak**, where the ticker keeps running in the background after the widget is gone, causing memory leaks and CPU drain.
 
 ---
-**Next Sitting Recommendation:** [State Management](https://github.com/carbonanik/guideline/blob/master/interview_prep/state_management.md) to learn how to trigger these optimizations.
+**Next Sitting Recommendation:** [Animations & VSync](./animation.md) to learn how to handle complex UI transitions.

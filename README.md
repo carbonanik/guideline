@@ -8,6 +8,7 @@ This repository integrates spiritual discipline, physical health, and senior-lev
 - 📅 **[Master Daily Routine](DAILY_ROUTINE.md)** (Optimized for 9-5)
 - 🧪 **[Learning System](LEARNING_SYSTEM.md)** (Flutter, AI, Architecture)
 - 🛡️ **[Habit & Rules](HABIT_RULES.md)** (The Non-Negotiables)
+- 🎓 **[Interview Prep Guide](interview_prep/README.md)** (Senior Flutter Prep)
 - 🗺️ **[Master Hub](LIFESTYLE_SYSTEM.md)** (System Overview)
 
 ## 🎯 Core Objectives

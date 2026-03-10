@@ -19,7 +19,7 @@ Comprehensive strategy for technical excellence and personal branding.
 - **Weekly (3hr):** Technical Writing & Reflection.
 
 ## Job Hunt & Opportunities
-- Dedicated time blocks for outreach and skill-matching.
+- Dedicated time block for [Senior Interview Prep](interview_prep/README.md).
 - Focus on "Interview Fluency" through mock prep.
 
 ---

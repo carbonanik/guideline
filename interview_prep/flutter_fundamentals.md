@@ -44,3 +44,6 @@ When you call `setState()`:
 ## 5. Key Concepts
 - **Key:** Used to identify a widget and preserve state during tree changes (e.g., `ValueKey`, `UniqueKey`, `GlobalKey`).
 - **BuildContext:** A handle to the **Element** in the tree. It represents the location of a widget and provides access to parent information (e.g., `Theme.of(context)`).
+
+---
+**Next Sitting Recommendation:** [Performance & Pipeline](./performance.md) to understand how to optimize your builds.

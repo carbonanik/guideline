@@ -40,4 +40,4 @@ Used to locate widgets in the tree: `find.byType()`, `find.byKey()`, `find.text(
 - **Avoid:** Testing static UI (like a `Text` widget that never changes).
 
 ---
-**Next Sitting Recommendation:** [Real World Scenarios](https://github.com/carbonanik/guideline/blob/master/interview_prep/real_world.md)
+**Next Sitting Recommendation:** [Native Communication](./native_communication.md) to handle platform-specific features.

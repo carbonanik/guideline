@@ -28,3 +28,6 @@ Must wrap the entire application to store the state of all providers.
 - `ref.read(provider)`: Reads the current state once (usually in callbacks).
 - `ref.listen(provider, (previous, next) { ... })`: Performs side effects without rebuilding.
 - `ref.invalidate(provider)`: Forces a provider to refresh its state.
+
+---
+**Next Sitting Recommendation:** [Software Architecture](./architecture.md) to organize your Riverpod providers at scale.

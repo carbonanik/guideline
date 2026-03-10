@@ -48,4 +48,4 @@ Instead of a data dump, use a benefit-driven 20-word intro:
 - **The Commitment Lock:** Get a clear timeline for the next step and ask: *"If I don't hear back by [Date], do I have your permission to send a polite nudge?"*
 
 ---
-**Final Takeaway:** You aren't just selling your past; you are selling your **future value** to the company. Be low-risk, high-impact, and easy to trust.
+**Next Sitting Recommendation:** [IAP & Subscriptions](./iap_subscriptions.md) to understand complex commerce implementations.

@@ -36,3 +36,6 @@ Defines a family of algorithms and makes them interchangeable.
 ### Command
 Turns a request into a stand-alone object containing all information about the request.
 - **Example:** Undo/Redo operations.
+
+---
+**Next Sitting Recommendation:** [SOLID Principles](./solid.md) to understand the fundamentals of clean object-oriented design.
