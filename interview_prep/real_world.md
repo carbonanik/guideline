@@ -34,5 +34,11 @@ Senior developers are judged on how they handle common but complex production sc
 - Use **Flavors** (Dev, Staging, Prod).
 - Use `--dart-define` to inject variables at compile time.
 
+## 6. Elite Portfolio Projects
+To reach the 80k+ level, you need projects that prove your seniority:
+1. **Production E-commerce:** Clean Architecture, Riverpod, IAP, and complex UI.
+2. **Real-time Chat App:** Websockets/Streams, Isolate-based parsing, and background notifications.
+3. **Offline-first Note App:** Sync strategies, conflict resolution (Last Write Wins/Manual), and Hive/SQLite.
+
 ---
 **Next Sitting Recommendation:** [Soft Skills & Strategy](./soft_skills.md) to master the psychology of senior-level interviews.

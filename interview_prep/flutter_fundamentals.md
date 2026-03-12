@@ -20,7 +20,7 @@ Senior developers must explain the relationship between these trees:
    - Expensive to create; Flutter tries to reuse them as much as possible by only updating properties.
 
 ### Key Interview Question: "Why does Flutter have three trees?"
-**Answer:** Separation of concerns. Widgets are for configuration, Elements for lifecycle management, and RenderObjects for expensive painting. This separation allows Flutter to perform "diffing" at the Element level and only repaint what's necessary.
+**Answer:** Separation of concerns. Widgets are for configuration, Elements for lifecycle management, and RenderObjects for expensive painting. This separation allows Flutter to perform "smart diffing" (**Reconciliation**) at the Element level and only repaint what's necessary.
 
 ### "Why are rebuilds fast?"
 Widgets are just lightweight, immutable **Configuration Objects**. Rebuilding a widget tree doesn't rebuild the actual UI; it just creates new blueprints. Flutter’s Element tree then performs "smart diffing" to reuse existing RenderObjects, minimizing expensive layout and paint operations.

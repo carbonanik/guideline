@@ -6,6 +6,7 @@ Dart runs in a single thread of execution called an **Isolate**. It uses an **Ev
 ### Isolate
 - An Isolate is a private space of memory and a single thread running an event loop.
 - **No Shared Memory:** Isolates don't share memory. Communication happens only via **Messages** (ports).
+- **Dart Memory Model:** Every isolate has its own heap. Garbage collection happens independently per isolate, which prevents "stop-the-world" pauses for the entire app.
 - **Benefit:** No need for locks or shared state management, which prevents many common concurrency bugs.
 
 ## The Event Loop

@@ -35,6 +35,11 @@ One of the newest and most "Senior" topics in Flutter.
 ### Feature Flags
 - Use tools like **Firebase Remote Config** or **LaunchDarkly** to toggle features on/off without a new build.
 
+## 5. Production Monitoring
+- **Crash Reporting:** Firebase Crashlytics or Sentry. Track "Fatal" vs "Non-fatal" errors.
+- **Analytics:** Firebase Analytics to track user behavior and feature adoption.
+- **Log Management:** Use a structured logging approach to debug production issues efficiently.
+
 ## 5. Senior Scenario
 - **Question:** "Our build takes 30 minutes. How do you speed it up?"
 - **Answer:**

@@ -2,6 +2,9 @@
 
 This guide is designed for **Mid-Level → Senior** Flutter Developer preparation. It covers 14 key areas across 4 layers: Core Fundamentals, Software Maturity, Performance, and Problem Solving.
 
+> [!TIP]
+> **New:** Follow the [🚀 1-Year Elite Roadmap](./ELITE_ROADMAP.md) for a structured 365-day masterclass.
+
 ## 📅 Recommended Preparation (1 Topic per Sitting)
 
 | Sitting | Topic | Key Focus |
@@ -25,6 +28,7 @@ This guide is designed for **Mid-Level → Senior** Flutter Developer preparatio
 | **Session 17** | [App Lifecycle](./app_lifecycle.md) | States, Observer, State Restoration. |
 | **Session 18** | [Security Deep Dive](./security.md) | SSL Pinning, Obfuscation, Secure Storage. |
 | **Session 19** | [CI/CD & DevOps](./devops_cicd.md) | Fastlane, Actions, Shorebird, Deployment. |
+| **Session 20** | [DevTools Mastery](./devtools.md) | Memory Profiler, CPU Profiler, Rebuilds. |
 
 ---
 
